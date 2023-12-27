@@ -1,0 +1,777 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo i {
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+    background-color: orangered;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+header .logo i:hover {
+    background-color: white;
+    color: orangered;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+header .link a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+header .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header .btns i {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+header .btns i:hover {
+    background-color: white;
+    color: orangered;
+}
+
+header .btns button {
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+header .btns button:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgb(69, 166, 9);
+}
+
+.banner .banner_left {
+    width: 50%;
+    height: auto;
+    color: white;
+    padding: 180px 20px;
+
+}
+
+.banner .banner_left h1 {
+    font-size: 50px;
+    width: 58%;
+    margin: 20px 0;
+}
+
+.banner .banner_left p {
+    font-size: 15px;
+    width: 60%;
+    line-height: 20px;
+}
+
+.banner .banner_left button {
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.banner .banner_left button:hover {
+    background-color: white;
+    color: orangered;
+}
+
+.banner .banner_left .texxt {
+    display: flex;
+    color: white;
+
+}
+
+.banner .banner_left .texxt h1 {
+    font-size: 20px;
+}
+
+.banner .banner_right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner_right img {
+    width: 450px;
+    height: 700px;
+}
+
+.savat {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 50px 0;
+}
+
+.savat .savat_right {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.savat .savat_right img {
+    width: 400px;
+    height: 350px;
+}
+
+.savat .savat_left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.savat .savat_left .s7077 {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.savat .savat_left .s7077 .left img {
+    width: 60px;
+    height: 60px;
+    background-color: orangered;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.savat .savat_left .s7077 .right {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin: 0 10px;
+
+}
+
+.square {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 40px 0;
+}
+
+.square .sqleft {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.square .sqleft .box {
+    width: 40%;
+    height: auto;
+    background-color: red;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 4px black, -1px -1px 4px black;
+}
+.square .sqleft .box p{
+    margin: 10px 0;
+    line-height: 20px;
+}
+.square .sqleft .box h1{
+    
+    margin: 10px 0;
+}
+.square .sqleft .box i {
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.square .sqleft .box i:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.square .sqleft .box h1 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.square .sqleft .box p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.square .sqright {
+    width: 50%;
+    height: auto;
+    background-color: #FFF;
+    padding: 20px 70px;
+}
+
+.square .sqright h5 {
+    font-size: 20px;
+    color: green;
+    margin: 10px 0;
+}
+
+.square .sqright h1 {
+    font-size: 32px;
+    width: 66%;
+}
+
+.square .sqright p {
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.square .sqright button {
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+    margin: 20px 0;
+}
+
+.square .sqright button:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 20px 0;
+}
+
+.about .about_right {
+    width: 100%;
+    width: auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.about .about_right h5 {
+    color: green;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.about .about_right h1 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.about .about_right p {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 15px 0;
+}
+
+.about .about_right i {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.about .about_right button {
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+    margin: 20px 0;
+}
+
+.about .about_right button:hover {
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.about .about_left {
+    width: 50%;
+    width: auto;
+}
+
+.about .about_left img {
+    width: 600px;
+    height: 500px;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nav p {
+    font-size: 25px;
+    color: green;
+
+}
+
+.nav h1 {
+    font-size: 35px;
+    width: 50%;
+    margin: 10px 0;
+    line-height: 40px;
+}
+
+.burchak {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.burchak .box {
+    width: 20%;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 2px black, -1px -1px 2px black;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.burchak .box img {
+    width: 100px;
+    height: 100px;
+}
+
+.burchak .box h1 {
+    font-size: 20px;
+}
+
+.burchak .box p {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 5px 0;
+    display: none;
+}
+
+.burchak .box .slsl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.burchak .box .slsl i{
+    display: none;
+}
+.burchak .box:hover .slsl i {
+    display: block;
+}
+
+.burchak .box:hover:hover p {
+    display: block;
+}
+
+.green71 {
+    width: 100%;
+    height: auto;
+}
+
+.navbarcha {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.navbarcha p {
+    font-size: 25px;
+    color: green;
+
+}
+
+.navbarcha h1 {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.fruits {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.fruits .box {
+    width: 300px;
+    height: 270px;
+    background-color: rgb(242, 233, 233);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(255, 255, 70), -2px -2px 10px rgb(255, 255, 70);
+}
+
+.fruits .box .meva {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.fruits .box .meva img {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    right: 50px;
+}
+
+.fruits .box .meva .sssss {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left:30px ;
+}
+
+.fruits .box .matn {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.fruits .box .matn h1 {
+    font-size: 20px;
+}
+
+.fruits .box .plus .ic {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.fruits .box .plus .ic i {
+    color: gold;
+}
+
+.fruits .box .plus .ms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0 220px;
+}
+
+.fruits .box .plus .ms i {
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+    margin: 0 45px;
+    transition: 1s;
+
+}
+
+.fruits .box .plus .ms h1 {
+    font-size: 20px;
+}
+
+.fruits .box .plus .ms i:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.green69{
+    width: 90%;
+    height: auto;
+    background-color: green;
+    border-radius: 20px ;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.green69 h1{
+    font-size: 45px;
+    margin: 20px 0;
+}
+.green69 .bottom{
+    width: 400px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    margin: 10px 0;
+}
+.green69 input{
+    width: 300px;
+    height: 65px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    text-indent: 20px;
+    outline: none;
+}
+.green69 button{
+    font-size: 18px;
+    padding: 20px 10px;
+    margin: 0 5px;
+    border-radius:10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    transition: 1s;
+}
+.green69 button:hover{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+.displey{
+    width: 100%;
+    height: 70vh;
+    margin: 40px 0;
+    display: flex;
+    padding: 20px 80px;
+}
+.displey .number1{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+}
+.displey .number1 .img{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displey .number1 .img img{
+    width: 60px;
+    height: 20px;
+
+}
+.displey .number1 p{
+    line-height: 24px;
+    margin: 20px 0;
+}
+.displey .number1 .iconsss i{
+    font-size: 18px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: 1s;
+}
+.displey .number1 .iconsss i:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.displey .number2{
+    width: 300px;
+    height: 250px;
+    padding: 20px 90px;
+   
+}
+.displey .number2 p{
+    margin:5px 0;
+    font-size: 20px;
+   
+}
+
+.displey .number3{
+    width: 300px;
+    height: 250px;
+    padding: 20px 50px;
+}
+.displey .number3 h1{
+    font-size: 30px;
+}
+.displey .number3 p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+.displey .number3 .bbb{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+.displey .number3 .bbb .iiiii i{
+  font-size: 20px;
+  color: gold;
+  padding: 10px 0;
+}
+.displey .number3 :nth-child(4){
+    color: red;
+}
+.displey .number3 :nth-child(5){
+    font-size: 17px;
+}
+.slslslsl {
+    color: gold;
+}
+
+.stst {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.displey .number4{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.displey .number4 img{
+    width:80px;
+    height: 80px;
+}
+.displey .number4 h1{
+    margin: 15px 50px ;
+}
+.o0000{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    margin-right:120px ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+.o0000 i{
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.o0000 .dddd{
+    color: white;
+}
+
+.o0000 .dddd p{
+    font-size: 10px;
+    margin: 2px 0;
+}
+.o0000 .dddd :nth-child(2){
+    font-size: 15px;
+}
+.o0000 i:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
